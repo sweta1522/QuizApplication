@@ -1,0 +1,680 @@
+{
+  "categories": [
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Explore the natural world, from atoms to galaxies.",
+      "icon": "🔬"
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "description": "Countries, capitals, rivers and landmarks.",
+      "icon": "🌍"
+    },
+    {
+      "id": "tech",
+      "name": "Technology",
+      "description": "Web, programming and computing fundamentals.",
+      "icon": "💻"
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "description": "Key events and figures that shaped our world.",
+      "icon": "📜"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "science-basics",
+      "categoryId": "science",
+      "title": "Science Basics",
+      "description": "Core facts across physics, chemistry and biology.",
+      "difficulty": "easy",
+      "estimatedMinutes": 3,
+      "questions": [
+        {
+          "id": "s1",
+          "text": "What is the chemical symbol for water?",
+          "options": [
+            {
+              "id": "s1-a",
+              "text": "H2O"
+            },
+            {
+              "id": "s1-b",
+              "text": "CO2"
+            },
+            {
+              "id": "s1-c",
+              "text": "O2"
+            },
+            {
+              "id": "s1-d",
+              "text": "HO"
+            }
+          ],
+          "correctOptionId": "s1-a",
+          "explanation": "Water is made of two hydrogen atoms and one oxygen atom: H2O."
+        },
+        {
+          "id": "s2",
+          "text": "Which planet is known as the Red Planet?",
+          "options": [
+            {
+              "id": "s2-a",
+              "text": "Venus"
+            },
+            {
+              "id": "s2-b",
+              "text": "Mars"
+            },
+            {
+              "id": "s2-c",
+              "text": "Jupiter"
+            },
+            {
+              "id": "s2-d",
+              "text": "Mercury"
+            }
+          ],
+          "correctOptionId": "s2-b",
+          "explanation": "Iron oxide (rust) on its surface gives Mars its red colour."
+        },
+        {
+          "id": "s3",
+          "text": "What gas do plants absorb for photosynthesis?",
+          "options": [
+            {
+              "id": "s3-a",
+              "text": "Oxygen"
+            },
+            {
+              "id": "s3-b",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "s3-c",
+              "text": "Carbon dioxide"
+            },
+            {
+              "id": "s3-d",
+              "text": "Hydrogen"
+            }
+          ],
+          "correctOptionId": "s3-c",
+          "explanation": "Plants take in carbon dioxide and release oxygen."
+        },
+        {
+          "id": "s4",
+          "text": "What is the approximate speed of light in a vacuum?",
+          "options": [
+            {
+              "id": "s4-a",
+              "text": "300,000 km/s"
+            },
+            {
+              "id": "s4-b",
+              "text": "30,000 km/s"
+            },
+            {
+              "id": "s4-c",
+              "text": "3,000 km/s"
+            },
+            {
+              "id": "s4-d",
+              "text": "3,000,000 km/s"
+            }
+          ],
+          "correctOptionId": "s4-a",
+          "explanation": "Light travels at about 299,792 km/s."
+        },
+        {
+          "id": "s5",
+          "text": "Which organ pumps blood around the human body?",
+          "options": [
+            {
+              "id": "s5-a",
+              "text": "Lungs"
+            },
+            {
+              "id": "s5-b",
+              "text": "Liver"
+            },
+            {
+              "id": "s5-c",
+              "text": "Heart"
+            },
+            {
+              "id": "s5-d",
+              "text": "Kidney"
+            }
+          ],
+          "correctOptionId": "s5-c",
+          "explanation": "The heart is a muscular pump that circulates blood."
+        }
+      ]
+    },
+    {
+      "id": "space-quest",
+      "categoryId": "science",
+      "title": "Space Quest",
+      "description": "Planets, stars and the wider universe.",
+      "difficulty": "medium",
+      "estimatedMinutes": 4,
+      "questions": [
+        {
+          "id": "sp1",
+          "text": "Which is the largest planet in our solar system?",
+          "options": [
+            {
+              "id": "sp1-a",
+              "text": "Saturn"
+            },
+            {
+              "id": "sp1-b",
+              "text": "Jupiter"
+            },
+            {
+              "id": "sp1-c",
+              "text": "Neptune"
+            },
+            {
+              "id": "sp1-d",
+              "text": "Earth"
+            }
+          ],
+          "correctOptionId": "sp1-b",
+          "explanation": "Jupiter is more than 11 times wider than Earth."
+        },
+        {
+          "id": "sp2",
+          "text": "What is the closest star to Earth?",
+          "options": [
+            {
+              "id": "sp2-a",
+              "text": "Sirius"
+            },
+            {
+              "id": "sp2-b",
+              "text": "Proxima Centauri"
+            },
+            {
+              "id": "sp2-c",
+              "text": "The Sun"
+            },
+            {
+              "id": "sp2-d",
+              "text": "Betelgeuse"
+            }
+          ],
+          "correctOptionId": "sp2-c",
+          "explanation": "The Sun is about 150 million km away; Proxima Centauri is the next closest."
+        },
+        {
+          "id": "sp3",
+          "text": "Who was the first human to walk on the Moon?",
+          "options": [
+            {
+              "id": "sp3-a",
+              "text": "Buzz Aldrin"
+            },
+            {
+              "id": "sp3-b",
+              "text": "Yuri Gagarin"
+            },
+            {
+              "id": "sp3-c",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "sp3-d",
+              "text": "Alan Shepard"
+            }
+          ],
+          "correctOptionId": "sp3-c",
+          "explanation": "Neil Armstrong stepped onto the Moon on 20 July 1969."
+        },
+        {
+          "id": "sp4",
+          "text": "What is the name of our galaxy?",
+          "options": [
+            {
+              "id": "sp4-a",
+              "text": "Andromeda"
+            },
+            {
+              "id": "sp4-b",
+              "text": "Milky Way"
+            },
+            {
+              "id": "sp4-c",
+              "text": "Triangulum"
+            },
+            {
+              "id": "sp4-d",
+              "text": "Whirlpool"
+            }
+          ],
+          "correctOptionId": "sp4-b",
+          "explanation": "Earth is in the Milky Way, a barred spiral galaxy."
+        },
+        {
+          "id": "sp5",
+          "text": "How many planets are in our solar system?",
+          "options": [
+            {
+              "id": "sp5-a",
+              "text": "7"
+            },
+            {
+              "id": "sp5-b",
+              "text": "8"
+            },
+            {
+              "id": "sp5-c",
+              "text": "9"
+            },
+            {
+              "id": "sp5-d",
+              "text": "10"
+            }
+          ],
+          "correctOptionId": "sp5-b",
+          "explanation": "There are eight planets since Pluto was reclassified in 2006."
+        }
+      ]
+    },
+    {
+      "id": "world-capitals",
+      "categoryId": "geography",
+      "title": "World Capitals",
+      "description": "Match the country to its capital city.",
+      "difficulty": "easy",
+      "estimatedMinutes": 3,
+      "questions": [
+        {
+          "id": "g1",
+          "text": "What is the capital of Australia?",
+          "options": [
+            {
+              "id": "g1-a",
+              "text": "Sydney"
+            },
+            {
+              "id": "g1-b",
+              "text": "Melbourne"
+            },
+            {
+              "id": "g1-c",
+              "text": "Canberra"
+            },
+            {
+              "id": "g1-d",
+              "text": "Perth"
+            }
+          ],
+          "correctOptionId": "g1-c",
+          "explanation": "Canberra was purpose-built as the capital."
+        },
+        {
+          "id": "g2",
+          "text": "What is the capital of Canada?",
+          "options": [
+            {
+              "id": "g2-a",
+              "text": "Toronto"
+            },
+            {
+              "id": "g2-b",
+              "text": "Ottawa"
+            },
+            {
+              "id": "g2-c",
+              "text": "Vancouver"
+            },
+            {
+              "id": "g2-d",
+              "text": "Montreal"
+            }
+          ],
+          "correctOptionId": "g2-b",
+          "explanation": "Ottawa sits on the border of Ontario and Quebec."
+        },
+        {
+          "id": "g3",
+          "text": "What is the capital of Japan?",
+          "options": [
+            {
+              "id": "g3-a",
+              "text": "Kyoto"
+            },
+            {
+              "id": "g3-b",
+              "text": "Osaka"
+            },
+            {
+              "id": "g3-c",
+              "text": "Tokyo"
+            },
+            {
+              "id": "g3-d",
+              "text": "Nagoya"
+            }
+          ],
+          "correctOptionId": "g3-c",
+          "explanation": "Tokyo has been Japan's capital since 1868."
+        },
+        {
+          "id": "g4",
+          "text": "What is the capital of Brazil?",
+          "options": [
+            {
+              "id": "g4-a",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "g4-b",
+              "text": "Brasília"
+            },
+            {
+              "id": "g4-c",
+              "text": "São Paulo"
+            },
+            {
+              "id": "g4-d",
+              "text": "Salvador"
+            }
+          ],
+          "correctOptionId": "g4-b",
+          "explanation": "Brasília replaced Rio de Janeiro as capital in 1960."
+        },
+        {
+          "id": "g5",
+          "text": "What is the capital of Egypt?",
+          "options": [
+            {
+              "id": "g5-a",
+              "text": "Cairo"
+            },
+            {
+              "id": "g5-b",
+              "text": "Alexandria"
+            },
+            {
+              "id": "g5-c",
+              "text": "Giza"
+            },
+            {
+              "id": "g5-d",
+              "text": "Luxor"
+            }
+          ],
+          "correctOptionId": "g5-a",
+          "explanation": "Cairo lies on the Nile and is Egypt's largest city."
+        }
+      ]
+    },
+    {
+      "id": "web-fundamentals",
+      "categoryId": "tech",
+      "title": "Web Fundamentals",
+      "description": "HTML, CSS, JavaScript and the web platform.",
+      "difficulty": "medium",
+      "estimatedMinutes": 4,
+      "questions": [
+        {
+          "id": "t1",
+          "text": "What does HTML stand for?",
+          "options": [
+            {
+              "id": "t1-a",
+              "text": "Hyper Trainer Marking Language"
+            },
+            {
+              "id": "t1-b",
+              "text": "HyperText Markup Language"
+            },
+            {
+              "id": "t1-c",
+              "text": "HighText Machine Language"
+            },
+            {
+              "id": "t1-d",
+              "text": "Hyperlink Text Mode Language"
+            }
+          ],
+          "correctOptionId": "t1-b",
+          "explanation": "HTML is the HyperText Markup Language used to structure web pages."
+        },
+        {
+          "id": "t2",
+          "text": "Which CSS property changes text colour?",
+          "options": [
+            {
+              "id": "t2-a",
+              "text": "font-style"
+            },
+            {
+              "id": "t2-b",
+              "text": "text-color"
+            },
+            {
+              "id": "t2-c",
+              "text": "color"
+            },
+            {
+              "id": "t2-d",
+              "text": "foreground"
+            }
+          ],
+          "correctOptionId": "t2-c",
+          "explanation": "The color property sets the text colour."
+        },
+        {
+          "id": "t3",
+          "text": "Which hook stores state in a React function component?",
+          "options": [
+            {
+              "id": "t3-a",
+              "text": "useEffect"
+            },
+            {
+              "id": "t3-b",
+              "text": "useState"
+            },
+            {
+              "id": "t3-c",
+              "text": "useRef"
+            },
+            {
+              "id": "t3-d",
+              "text": "useMemo"
+            }
+          ],
+          "correctOptionId": "t3-b",
+          "explanation": "useState returns the current value and a setter."
+        },
+        {
+          "id": "t4",
+          "text": "Which HTTP status code means 'Not Found'?",
+          "options": [
+            {
+              "id": "t4-a",
+              "text": "200"
+            },
+            {
+              "id": "t4-b",
+              "text": "301"
+            },
+            {
+              "id": "t4-c",
+              "text": "404"
+            },
+            {
+              "id": "t4-d",
+              "text": "500"
+            }
+          ],
+          "correctOptionId": "t4-c",
+          "explanation": "404 means the server cannot find the requested resource."
+        },
+        {
+          "id": "t5",
+          "text": "Which keyword declares a block-scoped constant in JavaScript?",
+          "options": [
+            {
+              "id": "t5-a",
+              "text": "var"
+            },
+            {
+              "id": "t5-b",
+              "text": "let"
+            },
+            {
+              "id": "t5-c",
+              "text": "const"
+            },
+            {
+              "id": "t5-d",
+              "text": "static"
+            }
+          ],
+          "correctOptionId": "t5-c",
+          "explanation": "const creates a block-scoped binding that cannot be reassigned."
+        }
+      ]
+    },
+    {
+      "id": "world-history",
+      "categoryId": "history",
+      "title": "World History",
+      "description": "Landmark events and the people behind them.",
+      "difficulty": "medium",
+      "estimatedMinutes": 4,
+      "questions": [
+        {
+          "id": "h1",
+          "text": "In which year did World War II end?",
+          "options": [
+            {
+              "id": "h1-a",
+              "text": "1918"
+            },
+            {
+              "id": "h1-b",
+              "text": "1939"
+            },
+            {
+              "id": "h1-c",
+              "text": "1945"
+            },
+            {
+              "id": "h1-d",
+              "text": "1950"
+            }
+          ],
+          "correctOptionId": "h1-c",
+          "explanation": "WWII ended in 1945."
+        },
+        {
+          "id": "h2",
+          "text": "Who painted the Mona Lisa?",
+          "options": [
+            {
+              "id": "h2-a",
+              "text": "Michelangelo"
+            },
+            {
+              "id": "h2-b",
+              "text": "Leonardo da Vinci"
+            },
+            {
+              "id": "h2-c",
+              "text": "Raphael"
+            },
+            {
+              "id": "h2-d",
+              "text": "Donatello"
+            }
+          ],
+          "correctOptionId": "h2-b",
+          "explanation": "Leonardo da Vinci painted it in the early 16th century."
+        },
+        {
+          "id": "h3",
+          "text": "Which ancient civilisation built the pyramids at Giza?",
+          "options": [
+            {
+              "id": "h3-a",
+              "text": "Romans"
+            },
+            {
+              "id": "h3-b",
+              "text": "Greeks"
+            },
+            {
+              "id": "h3-c",
+              "text": "Egyptians"
+            },
+            {
+              "id": "h3-d",
+              "text": "Mayans"
+            }
+          ],
+          "correctOptionId": "h3-c",
+          "explanation": "The Egyptians built them as royal tombs around 2500 BCE."
+        },
+        {
+          "id": "h4",
+          "text": "The French Revolution began in which year?",
+          "options": [
+            {
+              "id": "h4-a",
+              "text": "1689"
+            },
+            {
+              "id": "h4-b",
+              "text": "1776"
+            },
+            {
+              "id": "h4-c",
+              "text": "1789"
+            },
+            {
+              "id": "h4-d",
+              "text": "1815"
+            }
+          ],
+          "correctOptionId": "h4-c",
+          "explanation": "It began in 1789 with the storming of the Bastille."
+        },
+        {
+          "id": "h5",
+          "text": "Who was the first President of the United States?",
+          "options": [
+            {
+              "id": "h5-a",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "h5-b",
+              "text": "George Washington"
+            },
+            {
+              "id": "h5-c",
+              "text": "John Adams"
+            },
+            {
+              "id": "h5-d",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctOptionId": "h5-b",
+          "explanation": "George Washington served from 1789 to 1797."
+        }
+      ]
+    }
+  ]
+}
